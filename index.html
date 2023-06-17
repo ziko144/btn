@@ -12,9 +12,10 @@
         href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Rubik+Puddles&family=Source+Code+Pro:wght@600&display=swap"
         rel="stylesheet">
     <style>
-        body{
+        body {
             background-color: black;
         }
+
         * {
             margin: 0;
             padding: 0;
@@ -33,7 +34,7 @@
 
         .bmw {
             float: left;
-            margin: 1%;
+            margin: 1.25%;
             width: 22.5%;
             height: 200px;
             background-size: cover;
@@ -45,9 +46,8 @@
             background-image: url(1.jpg);
 
         }
-        .btn{
-        
-        }
+
+        .btn {}
 
         .two {
             background-image: url(2.jpg);
@@ -85,18 +85,8 @@
             color: white;
         }
 
-        .date {
-            letter-spacing: 5px;
-            color: white;
-        }
-
-        .info {
-            margin-left: 10px;
-            border-left: 4px black solid;
-            padding-left: 10px;
-        }
-
         .p {
+            float: right;
             border-left: 4px solid;
             font-family: 'Geologica', sans-serif;
             font-family: 'Rajdhani', sans-serif;
@@ -105,55 +95,83 @@
             text-align: center
         }
 
-        .ten {
-            height: 300px;
-            width: 100%;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-image: url(z.jpg);
-            background-repeat: no-repeat;
-        }
-
-        .pic2 {
-            background-image: url(z.jpg);
-        }
 
 
         .bmw:hover {
             scale: 0.8;
             transition: 0.3;
         }
-
-        .ad {
-            background-color: gray;
-            opacity: 0;
-            scale: 0.1;
-            height: 200px;
-            width: 100%;
-            color: white;
-        }
-
-        .ad:hover {
-            scale: 1;
-
-            background-color: black;
-            opacity: 0.7;
-        }
-
         .ziko {
-            line-height: 50px;
-            width: 160px;
-            font-size: 20px;
-            border-radius: 10px;
-            margin: 100px auto;
+            border-radius: 45px;
+            margin: auto;
+            width: 80px;
+            height: 40px;
             transition: .4s;
             text-align: center;
             background-color: cyan;
             box-shadow: 0 0 15px red;
+            display: inline-block;
         }
 
         .ziko:hover {
+            box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan;
+        }
+
+        .lq {
+            border-radius: 45px;
+            margin: auto;
+            width: 80px;
+            height: 40px;
+            transition: .4s;
+            text-align: center;
+            background-color: cyan;
+            box-shadow: 0 0 15px red;
+            display: inline-block;
+        }
+
+        .lq:hover {
+            box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan;
+
+        }
+
+        .dost {
+            border-radius: 45px;
+            margin: auto;
+            width: 80px;
+            height: 40px;
+            transition: .4s;
+            text-align: center;
+            background-color: cyan;
+            box-shadow: 0 0 15px red;
+            display: inline-block;
+        }
+
+        .dost:hover {
+            box-shadow: 0 0 5px cyan,
+                0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 100px cyan;
+        }
+
+        .master {
+            height: 40px;
+            width: 80px;
+            border-radius: 45px;
+            margin: auto;
+            transition: .4s;
+            text-align: center;
+            background-color: cyan;
+            box-shadow: 0 0 15px red;
+            display: inline-block;
+        }
+
+        .master:hover {
             box-shadow: 0 0 5px cyan,
                 0 0 25px cyan,
                 0 0 50px cyan,
@@ -164,7 +182,10 @@
 
 <body>
     </div>
-    <h1>BMW</h1>
+    <div class="ziko"><a href="https://www.youtube.com/watch?v=pn5DYP32w_w">next page</a></div>
+    <div class="lq"><a href="https://az.wikipedia.org/wiki/BMW">next page</a></div>
+    <div class="dost"><a href="https://www.facebook.com/groups/1131728367346666">next page</a></div>
+    <div class="master"><a href="https://www.instagram.com/bmw/">next page</a></div><br>
     <div class="bmw one"></div>
     <div class="bmw two"></div>
     <div class="bmw three"></div>
@@ -173,7 +194,7 @@
     <div class="bmw six"></div>
     <div class="bmw seven"></div>
     <div class="bmw eight"></div>
-    <p>BMW şirkəti Münhendə təyyarə mühərriklər zavodu kimi Karl Fridrix Rapp, Kamillo Kastilyon, Maks Frits tərəfindən
+    <p>şirkəti Münhendə təyyarə mühərriklər zavodu kimi Karl Fridrix Rapp, Kamillo Kastilyon, Maks Frits tərəfindən
         1916-cı ildə təsis edilib. İlkin dövrdə qəbul olunmuş və hal-hazırdada istifadə olunan ağ-mavi rəngli emblem
         fırlanan təyyarə propellerinin təsviri BMW-nin ilkin "təyinat"ının nişanəsidir.
 
@@ -186,7 +207,6 @@
 
         1922-ci ildə BMW Münhendə özünün bu günkü əsas binasını tikir (Hal-hazırda həmin bina şəhər Olimpiya Mərkəzi
         kimi də fəaliyyət göstərir).</p>
-        <div class="ziko"><a href="https://www.youtube.com/watch?v=pn5DYP32w_w">ZIKO</a></div>
 </body>
 
 </html>
